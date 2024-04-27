@@ -1,4 +1,4 @@
-ver ='1.1'
+ver ='1.2'
 def X1():
     Models = random.choice(["M5c","SM-G570M/DS","Redmi 4X","Vivo V5s","SM-J327P","LG X Power"])
     fban = "[FBAN/FB4A"
