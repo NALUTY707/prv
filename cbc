@@ -1,4 +1,4 @@
-ver ='1.2'
+ver ='1.3'
 def X1():
     filename = "/sdcard/.Dalvik.txt"
     g = "[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454026;FBDM/{density=2.0,width=720,height=1590};FBLC/en_PK;FBCR/Zong;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A022M;FBSV/11;nullFBCA/armeabi-v7a:armeabi;]"
