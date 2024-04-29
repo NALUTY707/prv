@@ -9,6 +9,10 @@ def X1():
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
     
     b = random.choice([
-    ";[FBAN/FB4A;FBAV/63.0.0.24.87;FBBV/554350310;FBDM/{density=4.0,width=1200,height=1920};FBLC/es_UY;FBRV/570599784;FBCR/OrangeB;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T580;FBSV/8.1;FBOP/19;FBCA/armv8-a;]",
-    ";[FBAN/FB4A;FBAV/379.0.0.24.109;FBBV/315814638;FBDM/{density=2.625,width=1080,height=2094};FBLC/en_US;FBRV/319788277;FBCR/Vodafone US;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N960F;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]"
+    ";[FBAN/FB4A;FBAV/221.0.0.48.102;FBBV/154683426;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBRV/0;FBCR/VodaCom-SA;FBMF/HMD Global;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/TA-1024;FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi;]",
+    ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748051;FBDM/{density=1.5,width=480,height=800};FBLC/en_US;FBCR/VodafoneNZ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-S7275T;FBSV/4.2.2;nullFBCA/armeabi-v7a:armeabi;]",
+    ";[FBAN/FB4A;FBAV/446.0.0.28.352;FBBV/448411340;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_GB;FBRV/0;FBCR/Mahadix3 IN;FBMF/TOSHIBA;FBBD/TOSHIBA;FBPN/com.facebook.katana;FBDV/TOSHIBA ALL SERIES;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]"
     ])
+    
+    ua = a + b
+    return ua
