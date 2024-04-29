@@ -6,7 +6,7 @@ def X11():
         lines = f.readlines()
     return random.choice(lines).strip()+"[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";"+g
 def X1():
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=0.75,width=240,height=320};FBLC/en_US;FBCR/T-Mobile US;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-S5302;FBSV/2.3.6;nullFBCA/armeabi-v7a:armeabi;]"
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+    b = ";[FBAN/FB4A;FBAV/196.0.0.75;FBBV/833645503;FBDM/{density=2.0,width=1080,height=1440};FBLC/fr_FR;FBRV/445114032;FBCR/TIM BRASIL;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N960F;FBSV/8.1.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b
     return ua
