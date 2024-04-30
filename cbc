@@ -6,13 +6,9 @@ def X11():
         lines = f.readlines()
     return random.choice(lines).strip()+"[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";"+g
 def X1():
-    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
-    
-    b = random.choice([
-    ";[FBAN/FB4A;FBAV/221.0.0.48.102;FBBV/154683426;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBRV/0;FBCR/VodaCom-SA;FBMF/HMD Global;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/TA-1024;FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi;]",
-    ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748051;FBDM/{density=1.5,width=480,height=800};FBLC/en_US;FBCR/VodafoneNZ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-S7275T;FBSV/4.2.2;nullFBCA/armeabi-v7a:armeabi;]",
-    ";[FBAN/FB4A;FBAV/446.0.0.28.352;FBBV/448411340;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_GB;FBRV/0;FBCR/Mahadix3 IN;FBMF/TOSHIBA;FBBD/TOSHIBA;FBPN/com.facebook.katana;FBDV/TOSHIBA ALL SERIES;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]"
-    ])
-    
-    ua = a + b
-    return ua
+	model = random.choice(["RMX3521","RMX3392","RMX3471","RMX3491","RMX3081","RMX3241"])
+	a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
+	b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+	c = ";[FBAN/FB4A;FBAV/212.0.0.88.33;FBBV/34106550;FBDM/{density=3.5,width=1006,height=1314};FBLC/en_BD;FBRV/14816568;FBCR/Bouygues Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A526W;FBSV/11;FBOP/19;FBCA/arm64-v8a:null;]"
+	ua = b+c
+	return ua
