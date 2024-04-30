@@ -6,9 +6,7 @@ def X11():
         lines = f.readlines()
     return random.choice(lines).strip()+"[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";"+g
 def X1():
-	model = random.choice(["RMX3521","RMX3392","RMX3471","RMX3491","RMX3081","RMX3241"])
-	a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
-	b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-	c = ";[FBAN/FB4A;FBAV/212.0.0.88.33;FBBV/34106550;FBDM/{density=3.5,width=1006,height=1314};FBLC/en_BD;FBRV/14816568;FBCR/Bouygues Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A526W;FBSV/11;FBOP/19;FBCA/arm64-v8a:null;]"
-	ua = b+c
-	return ua
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/196.0.0.50;FBBV/732457642;FBDM/{density=2.0,width=720,height=1459};FBLC/en_HU;FBRV/281631358;FBCR/Magyar Telekom;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/M2004J7BC;FBSV/11.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b
+    return ua
