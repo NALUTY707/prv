@@ -77,3 +77,16 @@ for generate in range(100):
 	uaku=f'Mozilla/5.0 (Linux; Android {a}.{b}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 	ugen.append(uaku)
 method ='M1'
+def X1():
+    FBMF = 'Samsung'
+    FBBD = 'Samsung'
+    FBBV = f'''{random.randint(103020103, 903060903)}'''
+    FBSV = f'''{random.randint(4, 13)}.{random.randint(0, 9)}.{random.randint(1, 9)}'''
+    FBCA = random.choice(['arm64-v8a:null;','x86:armeabi-v7a;','armeabi-v7a:armeabi;'])
+    FBAV = f'''{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}'''
+    FBLC = random.choice(['en_US','en_GB','en_AU','lt_LT','tr_TR','in_ID','id_ID','cs_CZ','pt_BR','de_DE','ru_RU','es_US','pt_PT'])
+    FBCR = random.choice(['O2.CZ','JAZZTEL','Nepal Telecom','YES OPTUS','Telstra','Telkomsel','null','Tele2 LT','Verizon','Unitel STP','MegaFon','MTN','Movistar','Turk Telekom','T-Mobile','VINAPHONE','LoneStar','UNEFON 4G','MASMOVIL','Grameenphone','Bouygues Telecom','Metfone','AT&amp;amp-T','Astelit-LIFE','Vodafone','XL Axiata','PLAY (T-Mobile)','Digi.Mobil','Verizon Wireless','SAZKAmobilCZ','PosteMobile','TELCEL','lifecell','Yoigo','vodafone.de','PosteMobile','Tele2 LT','Claro BR','O2 - UK','airtel','VIETTEL','U.S. Cellular','Metro by T-Mobile','TelkomSA','Banglalink','VIVACOM','lifecell','S COMVIQ','TRUE-H','GLOBE','VIETTEL','U.S. Cellular','Robi'])
+    BUILD = random.choice(['SP1A.210812.016','TP1A.220624.014','RP1A.200720.012','RKQ1.201004.002','PPR1.281373.396'])
+    FBDV = random.choice(["SM-G900H","SM-G900R4","SM-G900V","SM-G920A","SM-G920F","SM-G920I","SM-G920P","SM-G920R4","SM-G920T","SM-G920V","SM-G925A","SM-G925F","SM-G925I","SM-G925P","SM-G925R4","SM-G925T","SM-G925V","SM-G930F","SM-G930P","SM-G930R4","SM-G930T","SM-G930V","SM-G935F","SM-G935P","SM-G935R4","SM-G935T","SM-G935V","SM-N910A","SM-N910F","SM-N910G","SM-N910I","SM-N910P","SM-N910R4","SM-N910T","SM-N910V","SM-P550","SM-P555","SM-T230","SM-T231","SM-T232","SM-T237","SM-T330","SM-T331","SM-T332","SM-T337","SM-T530","SM-T531","SM-T532","SM-T537","SM-T630","SM-T631","SM-T632","SM-T637","SM-T730","SM-T731","SM-T732","SM-T737","SM-T830","SM-T831","SM-T832","SM-T837","SM-T930","SM-T931","SM-T932","SM-T937","SM-A300F","SM-A300FU","SM-A300G","SM-A300H","SM-A300M","SM-A300Y","SM-A300YZ","SM-A310F","SM-A310FD","SM-A310M","SM-A310MD","SM-A310N0","SM-A310Y","SM-A310YZ"])
+    ua = 'Dalvik/2.1.0 (Linux; U; Android ' + FBSV + '; ' + FBDV + ' Build/' + BUILD + ') [FBAN/FB4A;FBAV/' + FBAV + ';FBPN/com.facebook.katana;FBLC/' + FBLC + ';FBBV/' + FBBV + ';FBCR/' + FBCR + ';FBMF/' + FBMF + ';FBBD/' + FBBD + ';FBDV/' + FBDV + ';FBSV/' + FBSV + ';FBCA/' + FBCA + 'FBDM/{density=' + str(random.randint(1, 9)) + '.' + str(random.randint(1, 9)) + ',width=' + str(random.randint(500, 1500)) + ',height=' + str(random.randint(999, 3000)) + '};FB_FW/1;]'
+    return ua
