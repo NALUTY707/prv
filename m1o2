@@ -1,6 +1,6 @@
 ugen=[]
 for xd in range(10000):
-    rr = random.randint
+        rr = random.randint
 	build_b = random.choice(["001","002","003","011","012","014","015","020","021","022","023","024"])
 	bl_typ = random.choice(["TKQ1","SKQ1","TP1A","RKQ1","SP1A","RP1A","PPR1","QP1A"])
 	oppo = random.choice(["CPH2461","CPH2451","PCGM00","PBBM00","PFZM10","PGGM10","PECT30","PCHM10","PEAT00","PEYM00","PESM10","PFGM00"])
