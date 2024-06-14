@@ -1,0 +1,7 @@
+method ='1'
+def X1():
+	model = random.choice(["SM-P608L", "SM-F926L", "SM-A226K", "SM-A526N", "SM-T507N", "SM-T508N", "SM-F916K", "SM-G991L", "SM-G986W", "SM-G981K"])
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
+	b = "[FBAN/FB4A;FBAV/399.0.0.24.93;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
+	ua = a+b
+	return ua
