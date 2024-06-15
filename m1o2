@@ -76,11 +76,10 @@ for generate in range(100):
 	e=random.randrange(40,150)
 	uaku=f'Mozilla/5.0 (Linux; Android {a}.{b}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 	ugen.append(uaku)
-method ='3'
+method ='4'
 def X1():
     a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/FB4A;FBAV/196.0.0.76;FBBV/560279343;FBDM/{density=3.0,width=1080,height=2340};FBLC/en_AR;FBCR/Claro AR;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A137F;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"
-    c = ";[FBAN/FB4A;FBAV/339.0.0.32.118;FBBV/323006995;FBDM/{density=2.0,width=720,height=1369};FBLC/ru_RU;FBRV/325030047;FBCR/MTS RUS;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi 8;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
-    ua = b+random.choice([b,c])
+    c = ";[FBAN/FB4A;FBAV/455.0.0.0.95;FBPN/com.facebook.katana;FBLC/en_US;FBBV/33584912;FBCR/BT;FBMF/Vivo;FBBD/Vivo;FBDV/V2145A;FBSV/Android 7.1.1;FBDM={density=960,width=7680,height=4320};FB_FW/7;FBRV/636611173]"
+    ua = b+c
     return ua
