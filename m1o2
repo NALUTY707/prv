@@ -78,8 +78,17 @@ for generate in range(100):
 	ugen.append(uaku)
 method ='2'
 def X1():
-    a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
-    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/FB4A;FBAV/581.0.0.33.763;FBBV/848648147;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I5800L;FBSV/8;FBOP/1;FBCA/arm64-v8a:]"
-    ua = b+c
+    ua1 = random.choice(["Mozilla/5.0 (Linux; Android 13; TV BOX) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6303.202 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 14; SM-A105F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6289.226 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 13; Magnet_G50) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6347.198 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 14; SM-T875) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6263.194 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 14; Lenovo TB-X306X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6308.199 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 14; 100003561) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6307.225 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 13; Lenovo TB-X606X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6316.218 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 11.1; e-tab 20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6276.209 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 9; H96 Max RK3318) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6349.196 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 10.1; MI PAD 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6341.207 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 14; X88pro10.q2.0.6330.d4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6297.206 Mobile Safari/537.36",
+"Mozilla/5.0 (Linux; Android 13; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6315.218 Mobile Safari/537.36"])
+    ua = ua1
     return ua
