@@ -76,19 +76,10 @@ for generate in range(100):
 	e=random.randrange(40,150)
 	uaku=f'Mozilla/5.0 (Linux; Android {a}.{b}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 	ugen.append(uaku)
-method ='5'
+method ='1'
 def X1():
-    ua1 = random.choice(["Mozilla/5.0 (Linux; Android 13; TV BOX) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6303.202 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; SM-A105F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6289.226 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Magnet_G50) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6347.198 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; SM-T875) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6263.194 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; Lenovo TB-X306X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6308.199 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; 100003561) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6307.225 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Lenovo TB-X606X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6316.218 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 11.1; e-tab 20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6276.209 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 9; H96 Max RK3318) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6349.196 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 10.1; MI PAD 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6341.207 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; X88pro10.q2.0.6330.d4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6297.206 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6315.218 Mobile Safari/537.36"])
-    ua = ua1
+    dal = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,312)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/79.0.0.18.71;FBBV/31009847;FBDM/{density=1.5,width=480,height=854};FBLC/es_LA;FBCR/entel;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/HUAWEI-M931;FBSV/4.0.4;FBBK/1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = dal+a+b
     return ua
