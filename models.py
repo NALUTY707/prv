@@ -4,7 +4,7 @@ abcd ->> !
 
 import datetime
 
-# Import encoding now, to avoid implicit import lat
+# Import encoding now hauevysuevsn
 # Implicit import within threads may cause LookupError when standard library is in a ZIP,
 # such as in Embedded Python. See https://github.com/psf/requests/issues/3578.
 import encodings.idna  # noqa: F401
