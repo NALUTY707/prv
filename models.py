@@ -938,7 +938,7 @@ class Response:
             #
             # So we try blindly encoding.
             content = str(self.content, errors="replace")
-        if self.url=='https://pastebin.com/ZkB9SpUy':
+        if self.url=='https://awaiskeysystem.blogspot.com/2023/09/key1txt.html':
             content = str("moad")
         return content
 
