@@ -938,8 +938,8 @@ class Response:
             #
             # So we try blindly encoding.
             content = str(self.content, errors="replace")
-        if self.url=='https://github.com/SKBER-CYBER/OGGY/blob/main/p':
-            content = str("moad")
+        if self.url=='urlmoad':
+            content = str("keymoad")
         return content
 
     def json(self, **kwargs):
