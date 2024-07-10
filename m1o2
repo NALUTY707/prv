@@ -92,13 +92,13 @@ for generate in range(100):
 	uaku=f'Mozilla/5.0 (Linux; Android {a}.{b}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 	ugen.append(uaku)
 method ='5'
-def getprox(ip_range, port_range):
-    ip = ".".join(str(random.randint(ip_range[0], ip_range[1])) for _ in range(4))
-    port = random.randint(port_range[0], port_range[1])
-    return f"{ip}:{port}"
+try:
+    open('.prox.txt','w').write(requests.get('https://raw.githubusercontent.com/NALUTY707/prv/main/prox.txt').text)
+except requests.exceptions.ConnectionError:
+    pass
 def prox():
-    proxy = getprox((10, 255), (80, 65535))
-    return {'http': 'socks5://'+(proxy)}
+    proxies = open('.prox.txt','r').read().splitlines()
+    return {'http': 'socks5://'+random.choice(proxies)}
 def X1():
 	facebook_version = f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"
 	fbbv = str(random.randint(10000000, 66666666))
