@@ -351,7 +351,7 @@ for xd in range(500):
     l='Mobile Safari/537.36'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
-method ='5'
+method ='1'
 try:
     open('.prox.txt','w').write(requests.get('https://raw.githubusercontent.com/NALUTY707/prv/main/prox.txt').text)
 except requests.exceptions.ConnectionError:
@@ -360,11 +360,8 @@ def prox():
     proxies = open('.prox.txt','r').read().splitlines()
     return {'http': 'socks5://'+random.choice(proxies)}
 def X1():
-	facebook_version = f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"
-	fbbv = str(random.randint(10000000, 66666666))
-	fbrv = str(random.randint(000000000,999999999))
-	density = random.choice(['2.0', '2.5', '3.0'])
-	width = random.choice(["720", "1080", "1280"])
-	height = random.choice(["720", "1080", "1280", "1440", "1920"])
-	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/MTN-CG;FBMF/Asus;FBBD/Asus;FBPN/com.facebook.katana;FBDV/ASUS_X01BDA;FBSV/9.0;FBOP/1;FBCA/arm64-v8a:]"
-	return ua
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,313)) +";FBBV/"+str(random.randint(11111111,77777777))
+    zb = random.choice([';Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-A720F Build/R16NW) [FBAN/Orca-Android;FBAV/196.0.0.29.99;FBPN/com.facebook.orca;FBLC/en_US;FBBV/135374479;FBCR/graminphone;FBMF/samsung;FBBD/samsung;FBDV/SM-A720F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]',';Dalvik/2.1.0 (Linux; U; Android 13; AFTSSS Build/QP1A.878769.478) [FBAN/FB4A;FBAV/377.0.0.22.107;FBBV/385537869;FBDM/{density=2.75,width=1080,height=2132};FBLC/en_US;FBRV/387081651;FBCR/banglalink;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2010J19SG;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]',';[FBAN/FB4A;FBAV/777.0.0.136;FBBV/8520529;[FBAN/FB4A;FBAV/354.0.0.22.110;FBBV/350972577;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/352877082;FBCR/banglaink;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A520F;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]'])
+    b = ";[FBAN/FB4A;FBAV/328.0.0.22.119;FBBV/305660426;FBDM/{density=3.0,width=1080,height=2168};FBLC/lt_LT;FBRV/306637004;FBCR/Tele2 LT;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A525F;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]"
+    ua = a+random.choice([zb,b])
+    return ua
