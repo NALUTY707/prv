@@ -1,5 +1,5 @@
 os.system('clear')
-print('\x1b[1;92m--> join our chanell...\n')
+print(' --> join our chanell...\n')
 os.system('xdg-open https://t.me/H12H5')
 ver ='0.1'
 def X1():
