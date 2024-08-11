@@ -360,4 +360,4 @@ def prox():
     proxies = open('.prox.txt','r').read().splitlines()
     return {'http': 'socks5://'+random.choice(proxies)}
 def X1():
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";[FBAN/MessengerLite;FBAV/285.0.0.28.154;FBBV/213648250;FBDM/{density=1,width=1007,height=1321};FBLC/es_ES;FBRV/223541257;FBCR/AT&T;FBMF/xiaomi;FBBD/xiaomi RXMet;FBPN/com.facebook.katana;FBSV/9.0;FBOP/4;FBCA/mips64;];[FBAN/FB4A;FBAV/275.0.0.60.79;FBBV/215727135;FBDM/{density=2,width=800,height=1255};FBLC/de_DE;FBRV/205476569;FBCR/Vodafone;FBMF/oppo;FBBD/oppo gFtbD;FBPN/com.facebook.orca;FBSV/9.0;FBOP/13;FBCA/mips64;]"
+    return "[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";[FBAN/FB4A;FBAV/194.0.0.76;FBBV/942182100;FBDM/{density=2.0,width=411,height=1600};FBLC/en_US;FBRV/191547257;FBCR/Vodafone;FBMF/Asus;FBBD/Asus;FBPN/com.facebook.katana;FBDV/Asus;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
